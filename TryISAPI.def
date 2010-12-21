@@ -1,0 +1,7 @@
+; TRYISAPI.def : declares the module parameters for the DLL.
+
+LIBRARY	     "HTTPLogger"
+
+EXPORTS
+	HttpFilterProc
+	GetFilterVersion
